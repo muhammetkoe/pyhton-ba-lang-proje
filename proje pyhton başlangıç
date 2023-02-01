@@ -1,0 +1,8 @@
+1)LİSTEYİ DÜZLEŞTİRME
+import numpy as np  
+a = np.array([[1,4,7], [2,5,8],[3,6,9]])  
+b=a.flatten('A')  
+2)LİSTEYİ TERSİNE ÇEVİRME
+def Ters(lst): 
+    lst.reverse() 
+    return lst
